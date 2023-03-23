@@ -10,23 +10,44 @@
 function getNumbersToTens() {
   let currentNumber = 1;
   const number = [];
-  let i = 0;
-  while (i < 10) {
-    currentNumber += 1;
+  while (currentNumber <= 10) {
     number.push(currentNumber);
-    i++;
+    currentNumber++;
+
   }
   return number;
 }
 
 function getEvenNumbersToTwenty() {
+  const evenNumbers = [];
   let currentNumber = 2;
-  const evenNumber = [];
-  let i = 1;
-  while (i < 10) {
+  while (currentNumber <= 20) {
+    evenNumbers.push(currentNumber);
     currentNumber += 2;
-    evenNumber.push(currentNumber);
-    i++;
   }
-  return evenNumber;
+  return evenNumbers;
+}
+
+function repeatWord(word, times) {
+  let repeated = '';
+  let count = 1;
+  while (count <= times) {
+    repeated += word;
+    count++;
+  }
+  return repeated;
+}
+
+function logEachCharacter(string) {
+  for (let i = 0; i < string.length; i++) {
+    console.log(string[i]);
+  }
+}
+
+function doubleAll(numbers) {
+  const doubled = [];
+  for (let i = 0; i < numbers.length; i++) {
+    doubled.push(numbers[i] * 2);
+  }
+  return doubled;
 }
