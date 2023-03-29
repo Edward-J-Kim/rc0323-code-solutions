@@ -1,8 +1,4 @@
 /* exported capitalize */
-function capitalize(word) {
-  const firstLetter = word.charAt(0);
-  const firstLetterCap = firstLetter.toUpperCase(0);
-  const remainingLetters = word.slice(1);
-  const result = firstLetterCap + remainingLetters;
-  return result;
+function capitalize(string) {
+  return string[0].toUpperCase() + string.slice(1).toLowerCase();
 }
