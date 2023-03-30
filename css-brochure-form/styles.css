@@ -1,0 +1,29 @@
+h1 {
+  font-size: 15px;
+  color: rgb(250 134 153);
+  text-align: center;
+  margin: 10px;
+}
+
+select {
+  background-color: rgb(220 221 223);
+}
+
+p {
+  line-height: 20px;
+  font-size: 12px;
+  justify-content: left;
+  text-align: start;
+  margin: 10px;
+}
+
+button {
+  position: absolute;
+  left: 100px;
+  top: 210px;
+  padding: 5px 10px;
+  font-size: 10px;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(248 102 54);
+}
