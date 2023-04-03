@@ -1,0 +1,36 @@
+body {
+  font-family: Lato, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.feature {
+  flex-basis: calc(100% / 4);
+}
+
+.icon > img {
+  width: 100%;
+}
+
+button {
+  color: rgb(249 66 66);
+  background-color: white;
+}
