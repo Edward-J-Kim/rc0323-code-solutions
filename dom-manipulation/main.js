@@ -7,17 +7,17 @@ function handleHotButtonClick(event) {
   numberOfClicks++;
   let temperature;
   if (numberOfClicks < 4) {
-    temperature = 'cold';
+    temperature = ' cold';
   } else if (numberOfClicks < 7) {
-    temperature = 'cool';
+    temperature = ' cool';
   } else if (numberOfClicks < 10) {
-    temperature = 'tepid';
+    temperature = ' tepid';
   } else if (numberOfClicks < 13) {
-    temperature = 'warm';
+    temperature = ' warm';
   } else if (numberOfClicks < 16) {
-    temperature = 'hot';
+    temperature = ' hot';
   } else {
-    temperature = 'nuclear';
+    temperature = ' nuclear';
   }
 
   $hotButton.className = 'hot-button' + temperature;
