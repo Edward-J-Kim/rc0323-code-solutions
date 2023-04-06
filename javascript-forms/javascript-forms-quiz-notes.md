@@ -9,7 +9,7 @@ focus event
 - What event is fired when a user's cursor leaves a form control?
 mouseleave event
 - What event is fired as a user changes the value of a form control?
-
+the input event
 - What event is fired when a user clicks the `"submit"` button within a `<form>`?
 submit event
 - What does the `event.preventDefault()` method do?

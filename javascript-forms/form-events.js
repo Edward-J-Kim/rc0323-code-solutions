@@ -4,7 +4,7 @@ function handleFocus(event) {
 }
 function handleBlur(event) {
   console.log('blur event fired');
-  console.log('event.target.name', event.taget.name);
+  console.log('event.target.name', event.target.name);
 }
 function handleInput(event) {
   console.log('value of', event.target.name + ':', event.target.value);
